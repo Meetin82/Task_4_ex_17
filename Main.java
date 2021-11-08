@@ -21,6 +21,7 @@ public class Main {
         int b = 0;
         int c = 1;
         int result = 0;
+        
         for (int i = 0; i <= n;) {
             if (n == 0){
                 break;
@@ -34,6 +35,7 @@ public class Main {
             b = c;
             c = result;
         }
+        
         return result;
     }
 

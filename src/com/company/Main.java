@@ -23,7 +23,7 @@ public class Main {
         int result = 0;
 
         for (int i = 0; i <= n;) {
-            if (n == 0){
+            if (n == 0) {
                 break;
             }
             result = a + b + c;

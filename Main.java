@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         int n = readNum("number n: ");
-        if (checkNumberPositive(n)){
+        if (isNumberPositive(n)){
             System.out.println("Error. The number must be greater than or equal zero!");
             return;
         }
@@ -39,7 +39,7 @@ public class Main {
         return result;
     }
 
-    private static boolean checkNumberPositive(int num) {
+    private static boolean isNumberPositive(int num) {
         return num < 0;
     }
 

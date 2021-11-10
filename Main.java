@@ -43,7 +43,7 @@ public class Main {
         return num < 0;
     }
 
-    private static void printNumberOfTribonacci(int numberOfTribonacci){
+    private static void printNumberOfTribonacci(int numberOfTribonacci) {
         System.out.println("Smallest tribonacci number greater than or equal to n: " + numberOfTribonacci);
     }
 

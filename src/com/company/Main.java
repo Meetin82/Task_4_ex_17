@@ -23,14 +23,13 @@ public class Main {
         int c = 1;
         int result = 0;
 
-        while (result <= n) {
-            if (n == 0){
-                break;
-            }
+        if (n == 0) {
+            return result;
+        }
+
+        while (result < n) {
             result = a + b + c;
-            if (result >= n) {
-                break;
-            }
+
             a = b;
             b = c;
             c = result;
